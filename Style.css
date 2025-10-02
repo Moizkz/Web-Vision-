@@ -1,0 +1,227 @@
+*{margin: 0%; padding:0%;}
+.header { 
+    height: 600px; width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/use2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+   height: 100px;
+    width: 100%;
+    background-color: #000000d1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+.navbar h1 {
+    color: #0011f7;
+    padding-left: 45px;
+}
+#list {
+    width: 450px;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.navbar ul li{
+    display: inline;
+    padding-right: 45px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover {
+    color: blue;
+    transition: 2s;
+}
+
+.content {
+       height: 200px;
+    width: 460px;
+    color: #ffffff;
+    background-color: #20010169;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 220px;
+    z-index: 0;
+}
+.content div h1 {
+display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.content div h4 {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    padding: 22px;
+}
+
+.header navbar ul li a:hover {
+    color:black;
+    background:white;
+}
+
+.body { 
+    height: 600px; width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/use1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content1 {
+       height: 200px;
+    width: 460px;
+    color: #ffffff;
+    background-color: #20010169;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 220px;
+    z-index: 0;
+}
+.content1 div h1 {
+display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.content1 div h4 {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    padding: 22px;
+}
+
+
+
+.body2 { 
+    height: 600px; width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/ai.jfif');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenta {
+    height: 43px;
+    width: 460px;
+    color: #ffffff;
+    background-color: #20010169;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 0;
+}
+.contentb {
+height: 170px;
+    background: #20010169;
+    width: 349px;
+    border-radius: 20px;
+    COLOR: WHITE;
+    POSITION: RELATIVE;
+    top: 147px;
+    left: 270px;
+}
+
+.contentb h2 {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.contentb h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    padding: 22px;
+} 
+
+.contentc {
+    height: 170px;
+    background: #20010169;
+    width: 349px;
+    border-radius: 20px;
+    COLOR: WHITE;
+    POSITION: RELATIVE;
+    top: -22px;
+    left: 650px;
+}
+
+.contentc h2 {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.contentc h4 {
+display: flex
+;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 15px;
+} 
+
+.contentd {
+    height: 170px;
+    background: #20010169;
+    width: 349px;
+    border-radius: 20px;
+    COLOR: WHITE;
+    POSITION: RELATIVE;
+    top: -6px;
+    left: 460px;
+}
+
+.contentd h2 {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 7px
+}
+.contentd h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    padding: 22px;
+} 
+.container {
+height: 10px;
+    margin: auto;
+
+    width: 1351px;
+}
